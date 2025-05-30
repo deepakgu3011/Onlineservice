@@ -30,7 +30,7 @@ function Nav() {
     alignItems: 'center',
     padding: '10px 20px',
     flexWrap: 'wrap',
-    position: 'fixed',
+    position: 'sticky',
     top: '0',
     width: '100%',
     zIndex:1,
@@ -48,7 +48,7 @@ function Nav() {
     fontSize: '2rem',
     cursor: 'pointer',
     userSelect: 'none',
-    marginright: '3rem',
+    marginRight: '3rem',
   };
 
   const navLinkStyle = {
